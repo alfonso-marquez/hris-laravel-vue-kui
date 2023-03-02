@@ -63,6 +63,6 @@
 
             <SidebarCollapsibleItem :href="route('users.index')" title="List" :active="route().current('users.index')" />
             <SidebarCollapsibleItem :href="route('users.create')" title="Create" :active="route().current('users.create')" />
-        </SidebarCollapsible>-->
+        </SidebarCollapsible> -->
     </PerfectScrollbar>
 </template>

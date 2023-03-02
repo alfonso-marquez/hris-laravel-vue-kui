@@ -30,7 +30,7 @@ Route::get('/dashboard', function () {
 })->middleware(['auth', 'verified'])->name('dashboard');
 
 Route::get('/employees', function () {
-    return Inertia::render('Dashboard');
+    return Inertia::render('Employee/Index');
 })->middleware(['auth', 'verified'])->name('employees');
 
 Route::get('/department', function () {
